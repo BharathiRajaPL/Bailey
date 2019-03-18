@@ -32,3 +32,26 @@ b) var items = {"Orange", "Apple"};
 c) var items = new array("Orange", "Apple");
 
 d) var items[] = {"Orange", "Apple"};
+
+# foo = 1;
+
+(function() {
+
+   foo = 2;
+
+})();
+
+var x = function () {
+
+  foo = 3;
+
+};
+
+(function() {
+
+   var foo = 4;
+
+})();
+
+# console.log(foo); // Result : 2
+
