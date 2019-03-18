@@ -33,7 +33,8 @@ c) var items = new array("Orange", "Apple");
 
 d) var items[] = {"Orange", "Apple"};
 
-# foo = 1;
+# 4)JavaScript: What is the output of the following code
+foo = 1;
 
 (function() {
 
