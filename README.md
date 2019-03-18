@@ -22,3 +22,13 @@ a) arr[arr.length+1] = value
 c) arr[arr.length - 1] = value
 
 d) arr = arr + value 
+
+# 3) JavaScript: what is the correct way to create a JavaScript array?
+
+# a) var items = ["Orange", "Apple"]; ===> Correct Answer
+
+b) var items = {"Orange", "Apple"};
+
+c) var items = new array("Orange", "Apple");
+
+d) var items[] = {"Orange", "Apple"};
